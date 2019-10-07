@@ -1,0 +1,264 @@
+
+<div class="jumbotron">
+        <h1 class="display-4">Buy books</h1>
+        <p class="lead">Buy your favourite books here</p>
+        <hr class="my-4">
+        <p></p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" id="lol" onclick="cart()">
+                Sign up
+        </button>
+</div>
+
+
+
+<div><br></div>
+<div style="font-family: 'Times New Roman', Times, serif;text-align: left;color:blue;" class="h1">Books Available</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mNxwPwplaVQC7ISHqa0-tQAJ9TOiUJ1Sdq8jJ4QCH7mybGGOR7oBUGlzvuML6PrZVtxi_4-RiFXto4b1Ne-zJcOL2_37vhcg3EMulHOfq2N4sF1YztZX8mEsykttXerljrKVhubeQluF6xLSGp7LxSaVUjhT9p1Q0CdymF5GmeHY712TNMCmRLrHZO6VBR_dHtaYYIXAhJAfQXAJCm-RAtQ/alchemist.jpg?psid=1&width=175&height=264" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t1" type="text">The Alchemist</h5>
+                    <p class="card-text">by
+                        Paulo Coelho :
+                        Price 150
+                        <br>
+                        Paulo Coelho's enchanting novel has inspired a devoted following around the world. This story,
+                        dazzling
+                    </p>
+
+                    <button type="submit" id="p1" (click)="createBooks1()" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mMZDchjj_wEpqqb2m6h5ZGFEn720gyiFpVAGZDKQFBkR723kQ6MCOtY4FBoi0XZXXvcftIP9vrVOHjEfdeuyaxkDD5hzEKBQ8tVXI2oYfMVOGUR9A6hYJ_Kr23rRbXEagTp6rupFOuq1hwxJO1x19KV_1gezLn-EYWOXQXrtSSkvPiryqeUG2w6Nct-4piVaUTJF5PxzVs-_gLCni0UltQg/gatsby.jpg?psid=1&width=304&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t2">The Great Gatsby</h5>
+                    <p class="card-text">by
+                        F. Scott Fitzgerald:
+                        Price 200
+                        <br>
+                        The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his
+                        career. This
+                    </p>
+
+                    <button type="submit" id="p1" (click)="createBooks2()" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mdnQVJ5nLBB15d5qXMOQ8mSjbEN-6XxTWXC9LU5aX6cj2EEdrjkEmXYQvB6-aYhBxOGhIJFoFRwO4aCu2f9y6mwnucxywFxsf5jWeCIVJGVYQwKVnTFA7E3yMrr9ieZqIMrd5ByOcqR4TZdLFOHiuUVm4tyJmZaLjWKLYJOAdqqGG-_rLP5OZeoeT1wUO3CtsLf0YUDlO4PqAglBnrnffvA/1984.jpg?psid=1&width=318&height=472" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t3">1984</h5>
+                    <p class="card-text">by
+                        George Orwell:
+                        Price 180
+                        <br>Among the seminal texts of the 20th century, Nineteen Eighty-Four is a rare work that grows
+                        more haunting
+                    </p>
+
+
+                    <button type="submit" id="p1" (click)="createBooks3()" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mf_ew-xLIpa7blepa223Ng_i3hXATwWOMR1Fq1qo5g8j541GEP97e2wV08n37hhzSsoMQbUQpK5ce5KVd2FU5hXSfhRjRR7f7Ve6rQ1X35nBhy7NNhWSbnkdsFk84zoH_JGbSJrXY7UoCw-RGsIw7iieNQ5kaJWZfB0REZOuxpLCyrx7ibfEYyV_lqv5w4zIQM1j7wks8mkIE7-UqQb8USw/oldman.jpg?psid=1&width=300&height=456" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t4">The Old Man and the Sea</h5>
+                    <p class="card-text">by
+                        Ernest Hemingway:
+                        Price 200
+                        <br>
+                        The last novel Ernest Hemingway saw published, The Old Man and the Sea has proved itself to be
+                        one of
+                        .</p>
+
+
+                    <button type="submit" id="p1" (click)="createBooks4()" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div> <br></div>
+
+
+    <div class="row">
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mLYQTZ-MQ5xeeOiR9U-JYy2lK05_AMaFWAcwA_DEvsvLUOZmHr3rPRrRb_7cBZCZx4LGABwRTlU0ZOZTeMa6sWvI_Ze5pqyUQdsJfPB0e3aLIim7f0w78sbcgNJEkx0z8TtFxdWYEV_vDXgFy3cbgsqoLU52fOiAI9uaKnckZ4lm8Lkful7TUJ53PfYI67GriS2D-iPQtha2zkvIHe46hGg/hobbit.jpg?psid=1&width=306&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t5">The Hobbit There and Back Again</h5>
+                    <p class="card-text">by
+                        J.R.R. Tolkien:
+                        Price 300
+                        <br>
+                        Written for J.R.R. Tolkien’s own children, The Hobbit met with instant critical
+                        .</p>
+
+
+                    <button type="submit" id="p1" (click)="createBooks5()" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mw9OGCjGAMm8GiEhehsOWtXT4hN0Y_UChKZ2ylekrpQlNvFhoHk3hfyOWObeCRVuVhzB3h9ZSc91wFQHKFHVk-RQLbW_C5btFCe9J-qXgWeo2_LDdd3Mc9m8gECGIojV5-Jx6ka3e_qGrGJCpK5hmVLyiJIuYoIq13F6PcG3Bnl2u5b61vQMgrnN8uPM0zlzV1vL02yELMBnsNJuCBAssAQ/orient.jpg?psid=1&width=296&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t6">Murder on the Orient Express</h5>
+                    <p class="card-text">by
+                        Agatha Christie:
+                        Price 250
+                        <br>
+                        Le train est aussi dangereux que le paquebot » affirme Hercule Poirot…
+                        Le lendema
+                        .</p>
+
+
+                    <button type="submit" id="p1" onclick="add6();" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4m9nyB9YP9AGcyQZLGvzet4n3E4r1YtBNlyYsNdxm-g1nNklxGAEY96hxdlmZN5Zk19JrFUC3kMm92ntl9tMHVmN9ZUs_QZF6RQHTz9DzDE5AvN42rQ7zThfsGdlTN1-QgSQbZ5J2u-6t4VSrXua0H5EA7bRePaZtZwUoc74KWGsWtno6h3JJAoqO2rzT2XhBrxH8WwlibnQGE-mEtioBsPQ/price.jpg?psid=1&width=300&height=451" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t7">The Little Prince</h5>
+                    <p class="card-text">by
+                        Antoine de Saint-Exupéry:
+                        Price 220
+                        <br>
+                        Moral allegory and spiritual autobiography, The Little Prince is the most translated book in the
+                        .</p>
+
+
+                    <button type="submit" id="p1" onclick="add7();" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mWPkf1R06xgsLfh9asKTBh-IMlf-_M1mVNIAXGqWKNuHwR5xyRt5FIQXHti6jvyw0nBXDmEHj69Hgm6b0XAOsc0YZRe8xr5hITCUm2YjqNyPQXEWsm_Dc1S0y3Vt4GJvxhUXgBxHfF2W0p_bisPQxROrB1Kr5_TF9MSMPh8U4M7TZbkFff1-Ody_m3lEzPFdTBlzzC2YiBlxNjjoBvKZ2Dw/meta.jpg?psid=1&width=289&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t8">The Metamorphosis</h5>
+                    <p class="card-text">by
+                        Franz Kafka: <br>
+                        Price 350
+                        <br>
+                        "As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his
+                        .</p>
+
+
+                    <button type="submit" id="p1" onclick="add8();" class="btn btn-primary">add to cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div> <br></div>
+    <div class="row">
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mw3NrQGxaxDab3TnSDWf4JGANMAGKTkNy36zwfh8uZ2VTDYihCEG2P-c44fLqR3HIgS3HWHGuE774A3oi2-GKifhJKgk8FjAehx71xfeJxgnuutzPCoe6z8_0wCFEyqtv7yTO752qPF8NJ517s0xu9pQi-Hp8LaXwQ961ieS-k3ipcu3SfZcxvU3Z52ZqRHqY_b243B0OuYwTbGkoRHuA0Q/sherlock.jpg?psid=1&width=318&height=465" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t9">A Study in Scarle</h5>
+                    <p class="card-text">by
+                        Arthur Conan Doyle: <br>
+                        Price 350
+                        <br>
+                        From the moment Dr John Watson takes lodgings in Baker Street with the consulting detective
+
+                        .</p>
+
+
+                    <a href="#" id="p9" class="btn btn-primary">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mbmZ_FNavXhoccvgmKTvY4ypYJGMziy_TvDo7Aa8VM8_7-_NMTHSI8E19LPHox0Am--UJZExLGgHCHLm5WLHYASWiHSMzw1WbPPg8bLmReLidIr1sDoaJw52hWjA29Zks9xAaZtz6fYNh1WfFDn8FZH1DqbtWdXQn57LTWt4oEKwYaU6EKX74_tzek9xKwQDwlFZi-fIEw3dh-OMvrBC5OA/blade.jpg?psid=1&width=265&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t10">Do Androids Dream of Electric Sheep?</h5>
+                    <p class="card-text">by
+                        Philip K. Dick
+                        Price 450
+                        <br>
+                        It was January 2021, and Rick Deckard had a license to kill.
+                        Somewhere among the hordes
+
+                        .</p>
+
+
+                    <a href="#" id="p10" class="btn btn-primary">add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mICYgniqmHQSOaPG9-R7w-gtb1CE-nu9vJ4fuhRUx0mUL8irEbx57cRs2RrCAMLjW1RndPoZBz4KqigZPFdic5EGtT9-p0xcI_RBn8z1Pbq22IljSSr9GltksPCWK2rwJFci_AeeQgRbhuhI8vdHqHV-pd3z6dqAefW9Zqy7RLQ8OyZqkLkjQ3QTEKsqioRKuvEnpK6kpZRqXjqbkti_BLw/chess.jpg?psid=1&width=297&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t11">Chess Story<br>
+
+                    </h5>
+                    <p class="card-text">by
+                        Stefan Zweig: <br>
+                        Price 300
+                        <br>
+                        It was January 2021, and Rick Deckard had a license to kill.
+                        Somewhere among the hordes
+
+                        .</p>
+
+
+                    <a href="#" id="p11" class="btn btn-primary">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+
+            <div class="card" style="width: 18rem;">
+                <img src="https://sn3302files.storage.live.com/y4mJQ5xytzK5eDW2YFTPSHhTGu6oc-A4CdMBKvQDqizr4Sd_sV5xliXPzwigStku9lsQqptps-0YHoxi6HHi_e58GFIuUE4yqPHPorLvBmYSDhAWqCtLqLt3SOhBVy9I4MjmYg9Uu1217g0sZ8rXpOJNAkawVr8LTFs48hYxHinvip60cCMpJ3sX1d7ZB261KVGy-hS7KaO54A7gf8GaCS88Q/time.jpg?psid=1&width=295&height=475" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" id="t12">The Time Machine</h5>
+                    <p class="card-text">by
+                        H.G. Wells: <br>
+                        Price 450
+                        <br>
+                        “I’ve had a most amazing time....”
+
+                        So begins the Time Traveller’s astonishing firsthand account
+
+                        .</p>
+
+
+                    <a href="#" id="p12" class="btn btn-primary">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div><br></div>
+<div style="background-color:blue">
+    <p style="color:white; text-align: center"> About us <br></p>
+    <p style="color:white; text-align: center"> Contact us <br></p>
+
+</div>

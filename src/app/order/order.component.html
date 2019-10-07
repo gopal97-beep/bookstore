@@ -1,0 +1,39 @@
+<p>order works!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <label >Address1</label>
+                <input type="text" placeholder="Address1"/><br>
+                <label >Address2</label>
+                <input type="text" placeholder="Address1"/><br>
+                <label >Phone</label>
+                <input type="text" placeholder="phone"/><br>
+                <label >zip</label>
+                <input type="text" placeholder="zip"/><br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <table border="1">
+                <thead>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let a of newbook1">
+                        <th scope="row">{{a.id}}</th>
+                        <td>{{a.title}}</td>
+                        
+                        <td>{{a.price}}</td>
+                        
+                      
+              
+                      </tr>
+                </tbody>
+            </table>
+            <h3>Total Price={{total1}}</h3>
+        </div>
+    </div>
+</div>

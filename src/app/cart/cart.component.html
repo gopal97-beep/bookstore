@@ -1,0 +1,36 @@
+
+<div>
+    <h1 style="font-family: 'Times New Roman', Times, serif;color:brown"> Your Cart</h1>
+</div>
+<div class="container">
+    <table class="table table-hover">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Book ID</th>
+          <th scope="col">Title</th>
+          
+          <th scope="col">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let a of newbook1">
+          <th scope="row">{{a.id}}</th>
+          <td>{{a.title}}</td>
+          
+          <td>{{a.price}}</td>
+          
+        
+
+        </tr>
+    
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <h3>Total price={{total1}}</h3>
+  </div>
+  <div>
+    <a type="button" class="btn btn-primary" routerLink="/order">Place Orders</a>
+  </div>
+ 
+
